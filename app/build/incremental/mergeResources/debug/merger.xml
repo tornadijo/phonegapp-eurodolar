@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res" >
+            <file
+                name="icon"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="go" >Snap
+                </string>
+                <string name="app_name" >Conversor
+                </string>
+            </file>
+            <file
+                name="icon"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="plugins"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/xml/plugins.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="icon"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="main"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/build/res/rs/debug" />
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/build/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/src/debug/res" />
+    </dataSet>
+
+</merger>

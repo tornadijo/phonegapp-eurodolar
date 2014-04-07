@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversor</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+	<script type="text/javascript" src="jfeed/build/dist/jquery.jfeed.pack.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	var $valor='1.3251';
+	function convertir() {
+		$euros = $('#euro').get(0).value;
+		$cambio = parseFloat($euros) * parseFloat($valor);
+		$("#dolar").attr('value', $cambio);
+		return false;
+	}
+	function convertir2() {
+		$dolares = $('#dolar').get(0).value;
+		$cambio = parseFloat($dolares) / parseFloat($valor);
+		$("#euro").attr('value', $cambio);
+		return false;
+	}
+	
+</script>
+<!-- begin first page -->
+<section id="page1" data-role="page" data-theme="b">
+
+	<header data-role="header">
+		<h1>Conversor</h1>
+	</header>
+	<div class="ui-body ui-body-a" style="text-align:center;">
+		1 EURO = <script>document.write($valor);</script> DOLARES
+	</div>
+
+	<div data-role="content" class="content">
+		<form name="formualario">
+			<br />EUROS: <input type="text" id="euro">
+			<br />DOLARES: <input type="text" id="dolar">
+			<input type="button" name="enviar" value="EUROS a DOLARES" onClick="convertir()">
+			<input type="button" name="enviar" value="DOLARES a EUROS" onClick="convertir2()">
+		</form>
+	</div>
+
+	
+	
+		<div data-role="navbar" style="position:absolute; width:100%; bottom:0px;" >
+			<a style="margin:0px;" data-icon="star" href="#page2" >Información</a>
+		</div>
+
+</section>
+
+<!-- end first page -->
+<!-- begin second page -->
+<section id="page2" data-role="page" data-theme="b">
+		<header data-role="header">
+		<h1>Conversor</h1>
+	</header>
+	<div class="ui-body ui-body-a" style="text-align:center;">
+		Ignacio Cisneros
+	</div>
+	<div style="padding:10px;">
+		Esta aplicación es simplemente un ejemplo de programación para las personas que desean iniciarse en la programación de aplicaciones móviles con el framework PhoneGap.
+		<br /><br /><strong>Atención:</strong> El valor del dolar puede no estar actualizado.	
+		<br /><br />Puedes encontrar más información sobre mi en:<br /><br />
+		<ul data-role="listview" data-theme="a" data-inset="true">
+			<li><a href="http://www.ellibrogordodepetete.com">Mi blog</a></li>
+			<li><a href="http://www.ignaciocisneros.com">Mi web</a></li>
+		</ul>
+	</div>
+	
+	<div data-role="navbar" style="position:absolute; width:100%; bottom:0px;" >
+		<a style="margin:0px;" data-icon="back" data-rel="back" href="#page1" >Volver</a>
+	</div>
+
+</section>
+<!-- end second page -->
+
+	</body>
+</html>

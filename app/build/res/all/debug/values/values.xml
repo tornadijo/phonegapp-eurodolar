@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/guillermo/android-studio/Projects/eurodolar/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Conversor</string>
+    <string name="go">Snap</string>
+
+</resources>

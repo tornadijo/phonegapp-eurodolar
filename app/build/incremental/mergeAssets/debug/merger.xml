@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets" >
+            <file
+                name="www/phonegap-1.0.0.js"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/phonegap-1.0.0.js" />
+            <file
+                name="www/jfeed/build/packer/ParseMaster.pm"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/jfeed/build/packer/ParseMaster.pm" />
+            <file
+                name="www/jfeed/build/packer/jsPacker.pl"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/jfeed/build/packer/jsPacker.pl" />
+            <file
+                name="www/jfeed/build/packer/Pack.pm"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/jfeed/build/packer/Pack.pm" />
+            <file
+                name="www/jfeed/build/dist/jquery.jfeed.js"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/jfeed/build/dist/jquery.jfeed.js" />
+            <file
+                name="www/jfeed/build/dist/jquery.jfeed.pack.js"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/jfeed/build/dist/jquery.jfeed.pack.js" />
+            <file
+                name="www/index.html"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/index.html" />
+            <file
+                name="www/assets/icons/rss.png"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/assets/icons/rss.png" />
+            <file
+                name="www/js/main.js"
+                path="/home/guillermo/android-studio/Projects/eurodolar/app/src/main/assets/www/js/main.js" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/guillermo/android-studio/Projects/eurodolar/app/src/debug/assets" />
+    </dataSet>
+
+</merger>
